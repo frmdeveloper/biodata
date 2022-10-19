@@ -1,0 +1,65 @@
+/*
+* Color
+*/
+
+/*
+* Background color
+*/
+
+.bg-base-color {
+    background-color: #c80a48 !important;
+}
+
+
+/*
+* Border color
+*/
+
+.border-base-color {
+    border-color: #c80a48 !important;
+}
+
+
+/*
+* Button color
+*/
+
+.btn-base-color {
+    background-color: #c80a48 !important;
+}
+
+
+/*
+* Flickity
+*/
+
+.carousel-custom.carousel-fullscreen .flickity-page-dots .dot.is-selected {
+    background: #c80a48 !important;
+}
+
+
+/*
+* Preloader
+*/
+
+.pace .pace-progress {
+    background-color: #c80a48 !important;
+}
+
+
+/*
+* Select2 custom
+*/
+
+.select2-dropdown-custom .select2-results > .select2-results__options > .select2-results__option[aria-selected=true] {
+    background-color: #c80a48 !important;
+}
+
+
+/*
+* Text color
+*/
+
+.text-base-color {
+    color: #c80a48 !important;
+}

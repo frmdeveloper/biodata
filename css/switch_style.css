@@ -1,0 +1,102 @@
+.switch-style {
+    background: #ffffff;
+    -webkit-backface-visibility: hidden;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.1);
+    padding: 18px 18px 15px;
+    position: fixed;
+    z-index: 999;
+    top: 150px;
+    left: auto;
+    right: -202px;
+    width: 202px;
+    -webkit-transition: right 0.3s ease-in-out;
+    -moz-transition: right 0.3s ease-in-out;
+    -o-transition: right 0.3s ease-in-out;
+    transition: right 0.3s ease-in-out;
+}
+
+.switch-style.active {
+    left: auto;
+    right: 0;
+}
+
+.switch-style .switch-style-toggle {
+    background: #ffffff;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    -webkit-box-shadow: -9px 5px 20px 0 rgba(0, 0, 0, 0.07);
+    -moz-box-shadow: -9px 5px 20px 0 rgba(0, 0, 0, 0.07);
+    box-shadow: -9px 5px 20px 0 rgba(0, 0, 0, 0.07);
+    position: absolute;
+    top: 30px;
+    left: auto;
+    right: 202px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+}
+
+.switch-style .switch-style-toggle:hover {
+    cursor: pointer;
+}
+
+.switch-style .switch-style-toggle i {
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.switch-style h4 {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+
+.switch-style ul > li {
+    padding-right: 3px;
+}
+
+.switch-style ul > li > a {
+    display: block;
+    width: 35px;
+    height: 30px;
+}
+
+.switch-style ul > li > a.color_blue {
+    background: #006ca3;
+}
+
+.switch-style ul > li > a.color_green {
+    background: #00a69a;
+}
+
+.switch-style ul > li > a.color_green2 {
+    background: #149b60;
+}
+
+.switch-style ul > li > a.color_orange {
+    background: #da491c;
+}
+
+.switch-style ul > li > a.color_pink {
+    background: #c80a48;
+}
+
+.switch-style ul > li > a.color_purple {
+    background: #b93366;
+}
+
+.switch-style ul > li > a.color_red {
+    background: #db1521;
+}
+
+.switch-style ul > li > a.color_yellow {
+    background: #e68a00;
+}
+
+.switch-style p {
+    margin-top: 6px;
+}
